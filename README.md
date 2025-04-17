@@ -13,41 +13,6 @@ Session Id ඒක ආවේ නැත්නම් පරණ ඒක Logout කර
 
 `Workflow code`
 
+https://wa.me/+94742314485?text=HI_Rio_Bot_Workflow_code_eka_Dennako
 
-
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Start application
-      run: npm start
-
-      
-
+මේ නම්බර් එකට මැසේජ් එකක් දැම්මම ඒවි... 💗
